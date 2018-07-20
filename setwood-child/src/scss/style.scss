@@ -1084,16 +1084,10 @@ ul.mega-menu-item{
         //******************** MENU TOPO **********************//
         .header-top-outer{
             .header-top{
-                background-color: $first;
                 .header-top-inner{
                     .socials{
                         ul{
-                            margin: 0.8em 0;
-                            li{
-                                a:hover{
-                                    color: $second;
-                                }
-                            } 
+                            margin: 0.8em 0; 
                         }
                     }
                     .search-toggle{
@@ -1132,8 +1126,8 @@ ul.mega-menu-item{
                                     input.search-field{
                                         padding: 0.4em 0.6em 0.4em 0.6em;
                                         padding-right: 2em;
-                                        border: 1px solid #004f84;
-                                        background-color: #004f84;
+                                        border: 1px solid #242424;
+                                        background-color: #242424;
                                         color: #fff;
                                         font-size: 0.8em;
                                     }
@@ -1163,9 +1157,6 @@ ul.mega-menu-item{
                                     a{
                                         font-family: "calibri-bold";
                                         padding: 0.5em 1em;
-                                        &:hover{
-                                            color: $second;
-                                        }
                                     }
                                 }
                                 .current-menu-item, .current-page-item{
@@ -1176,7 +1167,7 @@ ul.mega-menu-item{
                                 .menu-item{
                                     &:after{
                                         content: "/";
-                                        color: $second;
+                                        color: #404040;
                                         position: absolute;
                                         top: 20%;
                                         right: -3%;
